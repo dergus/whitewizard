@@ -1,0 +1,21 @@
+{
+    "name": "dergus/yii2-whitewizard",
+    "description": "A Yii2 extension for easy handling multistep forms.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","multistep","multipart","forms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ziyadin Shemsedinov",
+            "email": "dergesus@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dergus\\whitewizard\\": ""
+        }
+    }
+}
