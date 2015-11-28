@@ -32,7 +32,7 @@ There are two ways of using this action:
 ==============================================
 
 How to use extension in 1-st way:
-
+```
 first you need to add extension in 
 controllers behaviors with configuration:
 <?php
@@ -130,7 +130,7 @@ class SiteController extends \yii\web\Controller
 		return $this->render('first',compact('model'));
     }
 
-All th same:
+All the same:
 
     public function actionSecond()
     {
@@ -198,7 +198,7 @@ And the last step shuld be a little bit different:
     }
 
 }
-
+```
 The usage for 2-nd way(not recommended cause makes code messy):
 
 ---- will be added soon ----
