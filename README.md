@@ -34,8 +34,18 @@ There are two ways of using this action:
 How to use extension in 1-st way:
 
 first you need to add extension in 
-controllers beaviors with configuration:
+controllers behaviors with configuration:
+<?php
+namespace app\controllers;
 
+use Yii;
+use app\models\First;
+use app\models\Second;
+use app\models\Third;
+use dergus\whitewizard\WhiteWizard;
+
+class SiteController extends \yii\web\Controller
+{
     public function behaviors()
     {
 	    /**
@@ -187,6 +197,7 @@ And the last step shuld be a little bit different:
 		return $this->render('success',compact('model'));
     }
 
+}
 
 The usage for 2-nd way(not recommended cause makes code messy):
 

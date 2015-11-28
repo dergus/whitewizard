@@ -1,5 +1,5 @@
 <?php
-namespace dergus\WhiteWizard;
+namespace dergus\whitewizard;
 
 use yii\base\Behavior;
 use yii\web\Controller;
