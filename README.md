@@ -33,8 +33,7 @@ There are two ways of using this action:
 
 How to use extension in 1-st way:
 ```
-first you need to add extension in 
-controllers behaviors with configuration:
+
 <?php
 namespace app\controllers;
 
@@ -46,6 +45,9 @@ use dergus\whitewizard\WhiteWizard;
 
 class SiteController extends \yii\web\Controller
 {
+
+//first you need to add extension in 
+//controllers behaviors with configuration:
     public function behaviors()
     {
 	    /**
